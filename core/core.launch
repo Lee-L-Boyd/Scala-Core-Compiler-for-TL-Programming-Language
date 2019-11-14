@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="scala.application">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/core"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="edu.utsa.cs5363.CoreCompiler"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="tl-progs/simple1.tl&#10;tl-progs/simple2.tl&#10;tl-progs/sqrt.tl&#10;tl-progs/euclid.tl&#10;tl-progs/factorize.tl&#10;tl-progs/fibonacci.tl&#10;tl-progs/type-error1.tl"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="core"/>
+</launchConfiguration>

@@ -1,0 +1,20 @@
+Authors: Mitra Bokaei <pfv610@my.utsa.edu> ; Lee Boyd <lee.l.boyd@gmail.com>
+
+The grammar is fixed to be LL1 as follows: 
+
+<assignment>        ::= ident ASGN <assignmentA>
+<assignmentA>       ::= <expression>
+                    | READINT
+<expression>        ::= <simpleExpression> <expressionA>
+<expressionA>       ::= COMPARE <expressionA>
+                    | epsilon
+<simpleExpression>  ::= <term> <simpleExpessionA>
+<simpleExpressionA> ::= ADDITIVE <simpleExpression>
+                    | epsilon
+<term>              ::= <factor> <termA>
+<termA>             ::= MULTIPLICATIVE <term>
+                    |epsilon
+                    
+                    
+                    
+The output files (.pt.dot files) are created in  tl-progs folder.
